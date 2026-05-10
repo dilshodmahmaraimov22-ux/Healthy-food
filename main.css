@@ -99,3 +99,74 @@
     width: 650px;
     height: 600px;
 }
+.card{
+    position: relative;
+}
+.card-text {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 20%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #DC780B;
+    margin-bottom: 20px;
+}
+
+.card-title {
+    text-align: center;
+    font-family: "Philosopher", sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 90%;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+    margin-bottom: 70px;
+}
+.card-list2 {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.card-item2 {
+    width: 350px;
+    height: 300px;
+    text-align: center;
+}
+
+.card-img1{
+}
+.card-img2{
+    position: absolute;
+    top: 170px;
+    left: 50%;
+    transform: translateX(calc(-50% - 400px));
+}
+.card-img3{
+    position: absolute;
+    top: 170px;
+    left: 50%;
+    transform: translateX(calc(-50% + 2px));
+}
+.card-img4{
+    position: absolute;
+    top: 170px;
+    left: 50%;
+    transform: translateX(calc(-50% + 400px));
+}
+.card-title2 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.card-text2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+}
