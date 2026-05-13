@@ -187,6 +187,10 @@
     height: 500px;
 }
 
+.hero-item2 {
+    width: 480px;
+}
+
 .hero-link {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
