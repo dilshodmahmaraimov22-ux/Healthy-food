@@ -99,9 +99,11 @@
     width: 650px;
     height: 600px;
 }
-.card{
+
+.card {
     position: relative;
 }
+
 .card-text {
     text-align: center;
     font-family: "Roboto", sans-serif;
@@ -125,6 +127,7 @@
     text-transform: capitalize;
     margin-bottom: 70px;
 }
+
 .card-list2 {
     display: flex;
     gap: 50px;
@@ -137,26 +140,29 @@
     text-align: center;
 }
 
-.card-img1{
-}
-.card-img2{
+.card-img1 {}
+
+.card-img2 {
     position: absolute;
     top: 170px;
     left: 50%;
     transform: translateX(calc(-50% - 400px));
 }
-.card-img3{
+
+.card-img3 {
     position: absolute;
     top: 170px;
     left: 50%;
     transform: translateX(calc(-50% + 2px));
 }
-.card-img4{
+
+.card-img4 {
     position: absolute;
     top: 170px;
     left: 50%;
     transform: translateX(calc(-50% + 400px));
 }
+
 .card-title2 {
     margin-bottom: 20px;
     margin-top: 20px;
@@ -169,4 +175,8 @@
     line-height: 24px;
     letter-spacing: 0%;
     text-align: center;
+}
+.hero-list{
+    display: flex;
+    gap: 30px;
 }
