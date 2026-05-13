@@ -176,7 +176,24 @@
     letter-spacing: 0%;
     text-align: center;
 }
-.hero-list{
+
+.hero-list {
     display: flex;
     gap: 30px;
+}
+
+.hero-img {
+    width: 550px;
+    height: 500px;
+}
+
+.hero-link {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 20%;
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: #DC780B;
 }
