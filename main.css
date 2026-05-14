@@ -225,5 +225,7 @@
     width: 170px;
     height: 48px;
     border: none;
-    
+    background-color: #DC780B;
+    color: white;
+    border-radius: 8px;
 }
