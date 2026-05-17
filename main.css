@@ -135,7 +135,7 @@
 }
 
 .card-item2 {
-    width: 350px;
+    width: 340px;
     height: 300px;
     text-align: center;
 }
@@ -227,4 +227,18 @@
     background-color: #DC780B;
     color: white;
     border-radius: 8px;
+}
+.cards{
+    width: 330px;
+    height: 446px;
+}
+.wrap-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    gap: 20px;
+}
+.wrap-img{
+    width: 330px;
+    height: 270px;
 }
