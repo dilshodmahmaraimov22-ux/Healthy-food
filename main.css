@@ -210,10 +210,6 @@
     margin-top: 30px;
 }
 
-.wrap-container {
-    position: relative;
-}
-
 .hero-text {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -231,87 +227,4 @@
     background-color: #DC780B;
     color: white;
     border-radius: 8px;
-}
-
-.wrap-list {
-    width: 700px;
-    text-align: center;
-    margin: 0 auto;
-}
-
-.wrap-link {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 20%;
-    text-align: center;
-    vertical-align: middle;
-    text-transform: uppercase;
-    color: #DC780B;
-}
-
-.wrap-title {
-    font-family: "Philosopher", sans-serif;
-    font-weight: 700;
-    font-size: 31.25px;
-    line-height: 24px;
-    letter-spacing: 0%;
-    vertical-align: middle;
-    color: #150C01;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
-.wrap-text {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0%;
-    text-align: center;
-    vertical-align: middle;
-    color: #150C01;
-}
-
-.wrap-list2 {
-    width: 446px;
-    height: 360px;
-    left: 50%;
-    transform: translateX(calc(-50% + 170px));
-}
-
-.wrap-list7 {
-    position: absolute;
-    top: 30px;
-    left: 50%;
-    transform: translateX(calc(-50% + 40px));
-}
-
-.wrap-list3 {
-    position: absolute;
-    top: 50px;
-    left: 50%;
-    transform: translateX(calc(-50% + 40px));
-}
-
-.wrap-list4 {
-    position: absolute;
-    top: 70px;
-    left: 50%;
-    transform: translateX(calc(-50% + 40px));
-}
-
-.wrap-list5 {
-    position: absolute;
-    top: 90px;
-    left: 50%;
-    transform: translateX(calc(-50% + 40px));
-}
-
-.wrap-list6 {
-    position: absolute;
-    top: 110px;
-    left: 50%;
-    transform: translateX(calc(-50% + 40px));
 }
