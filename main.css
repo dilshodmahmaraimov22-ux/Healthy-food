@@ -246,4 +246,6 @@
 .wrap-img {
     width: 330px;
     height: 230px;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
 }
