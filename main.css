@@ -228,17 +228,22 @@
     color: white;
     border-radius: 8px;
 }
-.cards{
-    width: 330px;
-    height: 446px;
-}
-.wrap-container{
+
+.wrap-container {
     display: flex;
     flex-wrap: wrap;
     margin: 20px;
     gap: 20px;
 }
-.wrap-img{
+
+.cards {
     width: 330px;
-    height: 270px;
+    height: 446px;
+    border: 0,2px rgb(149, 131, 131) solid;
+    box-shadow: #deb893 4px 4px 4px;
+}
+
+.wrap-img {
+    width: 330px;
+    height: 230px;
 }
