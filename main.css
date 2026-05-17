@@ -144,21 +144,21 @@
     position: absolute;
     top: 170px;
     left: 50%;
-    transform: translateX(calc(-50% - 400px));
+    transform: translateX(calc(-50% - 410px));
 }
 
 .card-img3 {
     position: absolute;
     top: 170px;
     left: 50%;
-    transform: translateX(calc(-50% + 2px));
+    transform: translateX(calc(-50% - 20px));
 }
 
 .card-img4 {
     position: absolute;
     top: 170px;
     left: 50%;
-    transform: translateX(calc(-50% + 400px));
+    transform: translateX(calc(-50% + 370px));
 }
 
 .card-title2 {
@@ -229,6 +229,44 @@
     border-radius: 8px;
 }
 
+.wrap-header {
+    text-align: center;
+}
+
+.wrap-link {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 20%;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: #DC780B;
+}
+
+.wrap-title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: "Philosopher", sans-serif;
+    font-weight: 700;
+    font-size: 31.25px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+}
+
+.wrap-texts {
+    margin-bottom: 70px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+}
+
 .wrap-container {
     display: flex;
     flex-wrap: wrap;
@@ -241,6 +279,8 @@
     height: 446px;
     border: 0,2px rgb(149, 131, 131) solid;
     box-shadow: #deb893 4px 4px 4px;
+    border-radius: 10px;
+    text-align: center;
 }
 
 .wrap-img {
