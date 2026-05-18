@@ -583,26 +583,32 @@ span {
     color: white;
     margin-bottom: 20px;
 }
-.footer-img{
+
+.footer-img {
     margin-bottom: 20px;
 }
-.ilova{
+
+.ilova {
     color: white;
     background: none;
 }
-.ilova2{
+
+.ilova2 {
     background: none;
     color: white;
 }
-.ilova3{
+
+.ilova3 {
     background: none;
     color: white;
 }
-.ilova4{
+
+.ilova4 {
     background: none;
     color: white;
 }
-.footer-app{
+
+.footer-app {
     display: flex;
     gap: 8px;
 }
