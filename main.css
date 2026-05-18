@@ -275,7 +275,7 @@
 }
 
 .cards {
-    width: 400px;
+    width: 385px;
     height: 500px;
     border: 0, 2px rgb(149, 131, 131) solid;
     box-shadow: #deb893 4px 4px 4px;
@@ -284,7 +284,7 @@
 }
 
 .wrap-img {
-    width: 400px;
+    width: 385px;
     height: 250px;
     border-top-left-radius: 60px;
     border-bottom-right-radius: 60px;
@@ -550,5 +550,51 @@ span {
     border-radius: 5px;
     border: none;
     background-color: #DC780B;
+    color: white;
+}
+
+.footer {
+    background-color: #252525;
+    width: 1300px;
+    height: 400px;
+    padding: 20px;
+}
+
+.footer-container {
+    display: flex;
+    gap: 220px;
+    margin-top: 60px;
+}
+
+.footer-title {
+    color: white;
+    font-family: "Philosopher", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.footer-link {
+    display: block;
+    color: white;
+}
+.footer-img{
+    margin-bottom: 20px;
+}
+.ilova{
+    color: white;
+    background: none;
+}
+.ilova2{
+    background: none;
+    color: white;
+}
+.ilova3{
+    background: none;
+    color: white;
+}
+.ilova4{
+    background: none;
     color: white;
 }
