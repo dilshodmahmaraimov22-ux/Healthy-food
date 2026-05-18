@@ -314,13 +314,33 @@ span{
 }
 .wraps-list{
     display: flex;
-    gap: 170px;
+    gap: 160px;
+    align-items: center;
 }
 .wraps-item{
     display: flex;
     gap: 4px;
 }
+.wrap-btn{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: #DC780B;
+    color: white;
+    font-size: 26px;
+}
 .stars{
     display: flex;
     gap: 2px;
+    color: #DC780B;
+}
+.stars3{
+    color: #EDEDED;
+}
+.stars4{
+    color: #EDEDED;
+}
+.stars5{
+    color: #EDEDED;
 }
