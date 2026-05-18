@@ -493,11 +493,20 @@ span {
     letter-spacing: 0%;
     text-transform: uppercase;
 }
-.register-container{
+
+.register {
+    background-color: #f0e8de;
+    width: 1300px;
+    height: 450px;
+    margin: 0 auto;
+}
+
+.register-container {
     text-align: center;
     margin: auto;
-    margin-top: 60px;
+    margin-top: 100px;
 }
+
 .register-link {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -519,17 +528,27 @@ span {
     text-align: center;
     vertical-align: middle;
     margin-top: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
-.reg{
+
+.reg {
     display: flex;
     margin-left: 250px;
 }
-.reg-input{
+
+.reg-input {
     width: 700px;
     height: 60px;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
 }
-.reg-btn{
+
+.reg-btn {
     width: 100px;
     height: 60px;
+    border-radius: 5px;
+    border: none;
+    background-color: #DC780B;
+    color: white;
 }
