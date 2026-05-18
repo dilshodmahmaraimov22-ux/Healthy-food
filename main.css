@@ -492,6 +492,7 @@ span {
     line-height: 100%;
     letter-spacing: 0%;
     text-transform: uppercase;
+    margin-bottom: 50px;
 }
 
 .register {
@@ -558,6 +559,7 @@ span {
     width: 1300px;
     height: 400px;
     padding: 20px;
+    margin: 0 auto;
 }
 
 .footer-container {
@@ -573,11 +575,13 @@ span {
     font-size: 18px;
     line-height: 100%;
     letter-spacing: 0%;
+    margin-bottom: 20px;
 }
 
 .footer-link {
     display: block;
     color: white;
+    margin-bottom: 20px;
 }
 .footer-img{
     margin-bottom: 20px;
@@ -597,4 +601,8 @@ span {
 .ilova4{
     background: none;
     color: white;
+}
+.footer-app{
+    display: flex;
+    gap: 8px;
 }
