@@ -277,7 +277,7 @@
 .cards {
     width: 330px;
     height: 446px;
-    border: 0,2px rgb(149, 131, 131) solid;
+    border: 0, 2px rgb(149, 131, 131) solid;
     box-shadow: #deb893 4px 4px 4px;
     border-radius: 10px;
     text-align: center;
@@ -288,4 +288,39 @@
     height: 230px;
     border-top-left-radius: 60px;
     border-bottom-right-radius: 60px;
+    margin-bottom: 20px;
+}
+
+.title-price {
+    display: flex;
+    gap: 130px;
+}
+
+span{
+    font-family: "Philosopher", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: right;
+    vertical-align: middle;
+}
+
+.wrap-titles {
+    margin-bottom: 20px;
+}
+.wrap-text{
+    margin-bottom: 20px;
+}
+.wraps-list{
+    display: flex;
+    gap: 170px;
+}
+.wraps-item{
+    display: flex;
+    gap: 4px;
+}
+.stars{
+    display: flex;
+    gap: 2px;
 }
