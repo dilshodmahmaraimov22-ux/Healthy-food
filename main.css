@@ -296,7 +296,7 @@
     gap: 130px;
 }
 
-span{
+span {
     font-family: "Philosopher", sans-serif;
     font-weight: 700;
     font-size: 24px;
@@ -309,19 +309,32 @@ span{
 .wrap-titles {
     margin-bottom: 20px;
 }
-.wrap-text{
+
+.wrap-text {
     margin-bottom: 20px;
+    text-align: start;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    vertical-align: middle;
 }
-.wraps-list{
+
+.wraps-list {
     display: flex;
-    gap: 160px;
+    gap: 120px;
     align-items: center;
+    text-align: center;
+    padding: 20px;
 }
-.wraps-item{
+
+.wraps-item {
     display: flex;
     gap: 4px;
 }
-.wrap-btn{
+
+.wrap-btn {
     width: 40px;
     height: 40px;
     border-radius: 10px;
@@ -330,17 +343,21 @@ span{
     color: white;
     font-size: 26px;
 }
-.stars{
+
+.stars {
     display: flex;
     gap: 2px;
     color: #DC780B;
 }
-.stars3{
+
+.stars3 {
     color: #EDEDED;
 }
-.stars4{
+
+.stars4 {
     color: #EDEDED;
 }
-.stars5{
+
+.stars5 {
     color: #EDEDED;
 }
